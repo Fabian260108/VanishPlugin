@@ -1,0 +1,14 @@
+name: DynamicVanish
+main: de.Main.vanishPlugin.Main
+version: "1.0"
+api-version: "1.21"
+depend: [LuckPerms]
+commands:
+  vanish:
+    description: Toggle Vanish
+    usage: /vanish
+    permission: vanish.use
+permissions:
+  vanish.use:
+    description: Erlaubnis, den Vanish-Befehl zu nutzen
+    default: op
